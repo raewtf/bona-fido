@@ -38,7 +38,7 @@ end
 -- ... now we run that!
 savecheck()
 
-achievements.initialize(achievementData, false)
+achievements.initialize(achievementData, true)
 
 function updatecheevos()
 	achievements.advanceTo("bona1000", save.score)
